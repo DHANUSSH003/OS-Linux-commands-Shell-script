@@ -492,28 +492,27 @@ echo 'The $$ is ' $$
 ps
 ```
  
-chmod 777 scriptest.sh
- 
-./scriptest.sh 1 2 3
-
-## OUTPUT
 
  
 ls file1
 ## OUTPUT
+<img width="514" height="61" alt="image" src="https://github.com/user-attachments/assets/8e44a24e-b68d-458f-8b96-86960b530be7" />
 
 echo $?
 ## OUTPUT 
 ./one
 bash: ./one: Permission denied
- 
+ <img width="514" height="61" alt="image" src="https://github.com/user-attachments/assets/212dffe9-cbc7-49c2-becd-171506d1fe6c" />
+
 echo $?
 ## OUTPUT 
- 
+ <img width="514" height="61" alt="image" src="https://github.com/user-attachments/assets/79e5f7aa-c11b-4342-9838-283822173062" />
+
 abcd
  
 echo $?
  ## OUTPUT
+<img width="514" height="61" alt="image" src="https://github.com/user-attachments/assets/9e76bc4a-c383-4a73-9573-60b56e84375b" />
 
 
  
@@ -547,12 +546,14 @@ fi
 ```
 ##OUTPUT
 
+<img width="559" height="243" alt="image" src="https://github.com/user-attachments/assets/19ca9a7c-df4d-4372-bcd5-2c8890daa5f8" />
 
 
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
+<img width="598" height="63" alt="image" src="https://github.com/user-attachments/assets/6a69982e-8958-4a2b-b0cc-7be0e00a406b" />
 
 
 # check file ownership
@@ -580,6 +581,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+<img width="598" height="162" alt="image" src="https://github.com/user-attachments/assets/d29452bf-61f4-4629-aabe-e95768aa9fa9" />
 
 # check if with file location
 cat>ifnested.sh 
@@ -626,6 +628,7 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
+<img width="598" height="363" alt="image" src="https://github.com/user-attachments/assets/b7672c11-6b39-41d4-bcc8-60909ac05973" />
 
 
 
