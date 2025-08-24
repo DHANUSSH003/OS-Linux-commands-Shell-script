@@ -679,6 +679,7 @@ $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
 ##OUTPUT
+<img width="827" height="71" alt="368673926-0d0f4252-20b0-4254-9670-2132f4525ee0" src="https://github.com/user-attachments/assets/948e3813-b245-4cbe-980e-9458728f1e7a" />
 
 # check if a file
 cat > ifnested.sh 
@@ -728,6 +729,7 @@ $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
 ##OUTPUT
+<img width="730" height="86" alt="368674019-fab0300b-2022-4ad0-a3bd-9b3ac9eeee2c" src="https://github.com/user-attachments/assets/d4a62e30-83ff-4655-ae8d-08ec9fbfa442" />
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -756,6 +758,7 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
+<img width="775" height="53" alt="368674080-33d8ce98-fcea-421b-96ad-f7510a391eaa" src="https://github.com/user-attachments/assets/695f3f25-5926-418f-b471-3bb98791ae1b" />
 
 
 # testing compound comparisons
@@ -772,6 +775,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+<img width="824" height="57" alt="368681485-9449f425-72b7-4c9c-bf39-bb3b36ee4a6e" src="https://github.com/user-attachments/assets/4236dd29-ac6a-4803-b45f-a270e675e965" />
 
 # using the case command
 cat >casecheck.sh 
@@ -883,6 +887,8 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
+<img width="898" height="132" alt="368681718-c1696d99-ba95-4fbd-87d2-68caa6a9fe1f" src="https://github.com/user-attachments/assets/6e5afeab-e971-42ea-bb04-2a0bad404202" />
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -904,6 +910,7 @@ Bhadrachalam
 Khammam
 
 ## OUTPUT
+<img width="816" height="263" alt="368681903-c2274e30-fd57-49f3-a66d-3854567d23c7" src="https://github.com/user-attachments/assets/d5b53d07-74b5-4c2b-99b5-1205c9e00276" />
 
 
 cat forctype.sh 
@@ -918,6 +925,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
+<img width="698" height="206" alt="368681990-27312fa1-741f-4968-8443-80393b19f7d7" src="https://github.com/user-attachments/assets/1e5d0cde-fc29-428d-bd20-af34e6817007" />
 
 cat forctype1.sh 
 ```bash
@@ -931,6 +939,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+<img width="832" height="201" alt="368682046-a134c06d-bc2f-47d6-8079-55a8d1099bd0" src="https://github.com/user-attachments/assets/76b2a94b-3df4-44f2-9017-0af124eaaed4" />
 
 cat fornested1.sh 
 ```bash
@@ -949,6 +958,7 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
+<img width="823" height="347" alt="368682091-d473c5f2-88f2-47ad-bf72-36db4122db46" src="https://github.com/user-attachments/assets/18110009-1a7e-4f31-9453-129d4316ad93" />
 
  
 cat forbreak.sh 
@@ -966,6 +976,7 @@ done
 echo "The for loop is completed“
 ```
 ## OUTPUT
+<img width="796" height="241" alt="368682168-80125046-a293-4f6d-a045-41e24a09659b" src="https://github.com/user-attachments/assets/d2cb1cf1-f74d-448f-ad94-d08292d52a4d" />
 
 $ chmod 755 forbreak.sh
  
@@ -991,7 +1002,8 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
- 
+ <img width="706" height="269" alt="368682336-a71f37e6-a7b7-4936-b6ac-d4d1df7c52cd" src="https://github.com/user-attachments/assets/3061404e-911b-4e3f-aeb8-dc1f28d79ba1" />
+
 cat exread.sh 
 ```bash
 #!/bin/bash
@@ -1005,6 +1017,7 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
+<img width="711" height="144" alt="368682402-88f36639-b54b-4c80-8d6f-35126e84e673" src="https://github.com/user-attachments/assets/9dce4fe2-1a37-4729-b535-0c7b7e51aa2b" />
 
 
  cat exread1.sh
@@ -1017,6 +1030,7 @@ echo "Hello $name, welcome to my program. “
 $ chmod 755 exread1.sh 
 
 ## OUTPUT
+<img width="721" height="137" alt="368682485-ac5a4a45-d04b-4748-ab7f-c6b5e1d6d381" src="https://github.com/user-attachments/assets/f399a0e4-7e8b-49db-8260-fd4a3717ac2d" />
 
 
 
@@ -1038,6 +1052,8 @@ echo "Usage: badtest1 a b"
 fi
 ```
 ## OUTPUT
+<img width="742" height="236" alt="368682576-ad721d8a-b4ae-4eab-81fa-8cef958b6421" src="https://github.com/user-attachments/assets/d1a4cfb5-195d-4d1a-8224-1384f8842029" />
+
  ./funcex.sh 
 
  
@@ -1055,6 +1071,8 @@ done
 $ chmod 777 argshift.sh
 
 ## OUTPUT
+<img width="736" height="157" alt="368682702-cdc9d420-ac46-4688-a926-b017c1eb8106" src="https://github.com/user-attachments/assets/90b4ab09-aaba-40ff-9559-6a1af0e8328a" />
+
 $ ./argshift.sh 1 2 3
  
  cat argshift1.sh
@@ -1072,6 +1090,8 @@ done
 ```
 $ chmod 777 argshift.sh
 ## OUTPUT
+<img width="825" height="229" alt="368682791-24b06404-63f9-4358-8f23-ba80165d2f22" src="https://github.com/user-attachments/assets/f0f5d814-f8a9-4b73-8f97-af22d3234098" />
+
 $ ./argshift.sh 1 2 3
  
 cat argshift.sh
@@ -1085,6 +1105,8 @@ done
 set +x
 ```
 ## OUTPUT
+<img width="833" height="321" alt="368682863-4d226e69-fd6b-4322-8e04-359eccb5b146" src="https://github.com/user-attachments/assets/3becd8ee-e6e0-41bb-bb75-ad0a44140034" />
+
  ./argshift.sh 1 2 3
  
  
@@ -1117,7 +1139,8 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
+ <img width="801" height="520" alt="368682925-0913aaaf-815c-43e5-8a68-67d378785123" src="https://github.com/user-attachments/assets/458e3958-b9f5-4f14-b161-4732ff661a7d" />
+
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1145,6 +1168,7 @@ fi
 ```
 ## OUTPUT 
 
+<img width="831" height="729" alt="368682998-892623f1-936a-4c9a-8fb0-6bdfcf70f9ab" src="https://github.com/user-attachments/assets/babdfcc8-9fbf-403b-9823-b29a88eb22bd" />
 
 # RESULT:
 The Commands are executed successfully.
