@@ -49,6 +49,7 @@ cat < file1
 cat < file2
 ## OUTPUT
 
+<img width="557" height="128" alt="image" src="https://github.com/user-attachments/assets/e7dc93ed-e92c-4f42-9e51-de7bc27210d2" />
 
 # Comparing Files
 cmp file1 file2
