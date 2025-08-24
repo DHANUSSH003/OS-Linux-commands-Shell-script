@@ -42,23 +42,28 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
+![WhatsApp Image 2025-08-24 at 15 45 59_fb481605](https://github.com/user-attachments/assets/4f5ed764-54fe-4fc2-9ef8-dd05c1fe2b7c)
 
 
 
 cat < file2
 ## OUTPUT
+![WhatsApp Image 2025-08-24 at 15 45 59_3b8db7ba](https://github.com/user-attachments/assets/7bc4ccb6-555c-4575-bc46-ee6ef79d28eb)
 
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+ ![WhatsApp Image 2025-08-24 at 15 45 59_cc034138](https://github.com/user-attachments/assets/c7528482-2ad0-41a2-bf20-a2b6c74db1e2)
+
 comm file1 file2
  ## OUTPUT
+![WhatsApp Image 2025-08-24 at 15 45 59_b5b08980](https://github.com/user-attachments/assets/72ece6d5-b78a-4703-a20f-51c340111b79)
 
  
 diff file1 file2
 ## OUTPUT
+![WhatsApp Image 2025-08-24 at 15 45 59_3c8a29a5](https://github.com/user-attachments/assets/c1a38b0e-1d70-42ae-92a5-2479fca4f84f)
 
 
 #Filters
@@ -82,6 +87,7 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
+![WhatsApp Image 2025-08-24 at 15 45 59_fc763c6e](https://github.com/user-attachments/assets/e087c87c-155b-4e5b-8cf9-a9e674ae5f4c)
 
 
 
@@ -89,10 +95,12 @@ cut -c1-3 file11
 cut -d "|" -f 1 file22
 ## OUTPUT
 
+![WhatsApp Image 2025-08-24 at 15 45 59_7ce8a3e5](https://github.com/user-attachments/assets/3d2d7af0-439d-4056-a70c-0529d28129da)
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+![WhatsApp Image 2025-08-24 at 15 45 59_8f8bcce9](https://github.com/user-attachments/assets/5f80552f-a54a-4ae1-88c5-0e3d60e4fe66)
 
 
 cat < newfile 
@@ -108,6 +116,7 @@ hello world
 grep Hello newfile 
 ## OUTPUT
 
+![WhatsApp Image 2025-08-24 at 15 45 59_d5b74256](https://github.com/user-attachments/assets/00e4b209-64b5-40da-8668-b32c59472ffd)
 
 
 grep hello newfile 
@@ -163,41 +172,49 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
+![WhatsApp Image 2025-08-24 at 15 45 59_c4f6b8c9](https://github.com/user-attachments/assets/61a405b9-8484-4fbf-ade2-fbdeb6a6ff4e)
 
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
 
+![WhatsApp Image 2025-08-24 at 15 45 59_ab7bf16f](https://github.com/user-attachments/assets/f74abb79-dc7b-40b3-8391-b329700b0226)
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
 
+![WhatsApp Image 2025-08-24 at 15 45 59_b0c69823](https://github.com/user-attachments/assets/d945a386-96f3-41af-9cef-c909c2e467db)
 
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
 
+![WhatsApp Image 2025-08-24 at 15 45 59_ebaeef2c](https://github.com/user-attachments/assets/3c279d3c-d798-4866-8c8d-8415ae1a132b)
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
 
+![WhatsApp Image 2025-08-24 at 15 45 59_72251ec5](https://github.com/user-attachments/assets/159a5c13-7d77-416b-9b33-681746eca415)
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
+![WhatsApp Image 2025-08-24 at 15 45 59_68ff7209](https://github.com/user-attachments/assets/6652711f-8c76-4101-81e8-08fb0664c121)
 
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
 
+![WhatsApp Image 2025-08-24 at 15 45 59_4b88bd08](https://github.com/user-attachments/assets/6e5a3d11-c947-49b7-a7c0-61134f559b20)
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
+![WhatsApp Image 2025-08-24 at 15 45 59_0c2db10e](https://github.com/user-attachments/assets/678292b9-75cf-422e-bc96-d7672e856bdc)
 
 
 
