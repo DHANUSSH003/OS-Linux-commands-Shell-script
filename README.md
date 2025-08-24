@@ -1,4 +1,4 @@
-# OS-Linux-commands-Shell-scripting
+<img width="722" height="97" alt="image" src="https://github.com/user-attachments/assets/6e8d3c50-5dd3-4caf-bb9e-5d5ab8473d63" /># OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
@@ -328,19 +328,23 @@ seq 3 | sed '2a hello'
 
 seq 2 | sed '2i hello'
 ## OUTPUT
+<img width="722" height="97" alt="image" src="https://github.com/user-attachments/assets/7e5eee24-60ac-40b6-9c60-82a7f2e179f1" />
 
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
+<img width="722" height="97" alt="image" src="https://github.com/user-attachments/assets/fec30d69-e4b0-44a3-b7eb-44ecfb55f283" />
 
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
+<img width="722" height="97" alt="image" src="https://github.com/user-attachments/assets/7e8acb79-3636-46f7-92fe-4dda9d80041f" />
 
 
 
 sed -n '2,4{s/$/*/;p}' file23
 
+<img width="722" height="97" alt="image" src="https://github.com/user-attachments/assets/08bd6dbc-c73c-4094-a891-cdb147db8dc2" />
 
 #Sorting File content
 cat > file21
@@ -353,6 +357,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
+<img width="722" height="130" alt="image" src="https://github.com/user-attachments/assets/62d4a02b-bf75-4592-9d12-1c39f14ecf4c" />
 
 
 cat > file22
@@ -366,6 +371,7 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
+<img width="722" height="130" alt="image" src="https://github.com/user-attachments/assets/1eb8eb05-1616-459a-9473-0a5b2dcf1bcc" />
 
 
 
@@ -373,6 +379,7 @@ uniq file22
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+<img width="763" height="206" alt="image" src="https://github.com/user-attachments/assets/d699e8d4-20ce-4952-bda6-75385ecfd001" />
 
 cat < urllist.txt
 ```
@@ -390,16 +397,19 @@ www. mrcet.... com
 cat urllist.txt | tr -d ' '
  ## OUTPUT
 
+<img width="763" height="96" alt="image" src="https://github.com/user-attachments/assets/f384a6f4-d4e4-4bbf-b0aa-5d24c5c82685" />
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
+<img width="763" height="96" alt="image" src="https://github.com/user-attachments/assets/b30cbff8-5559-4871-b907-b860a2b97c26" />
 
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
+<img width="763" height="126" alt="image" src="https://github.com/user-attachments/assets/b2cb398a-386e-4195-baf3-3728f0e72db2" />
 
 
 mkdir backupdir
@@ -411,17 +421,21 @@ cd backupdir
 tar -tvf backup.tar
 ## OUTPUT
 
+<img width="763" height="81" alt="image" src="https://github.com/user-attachments/assets/3f2a15b8-45ac-43fa-b8b7-3471cfc0a4fa" />
 
 tar -xvf backup.tar
 ## OUTPUT
+<img width="763" height="81" alt="image" src="https://github.com/user-attachments/assets/c09c3255-4d0b-4975-af48-bf5d21e33d33" />
 
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
- 
+ <img width="763" height="81" alt="image" src="https://github.com/user-attachments/assets/04f00b3b-763a-425c-8e30-070d3c13c170" />
+
 gunzip backup.tar.gz
 ## OUTPUT
+<img width="763" height="81" alt="image" src="https://github.com/user-attachments/assets/b38590b2-abe4-40d3-8c54-a828adc71e5a" />
 
  
 # Shell Script
